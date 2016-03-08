@@ -35,6 +35,13 @@ This project requires Python 3.x. You'll also need ``numpy`` and ``scipy`` (nume
 installed system-wide. Afterwards, you can run the following commands from your terminal:
 
 .. code:: bash
+pip3.4 install Theano
+
+pip3.4 install lasagne
+
+apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev
+
+.. code:: bash
 
     # Create a local environment for Python 3.x to install dependencies here.
     python3 -m venv pyvenv --system-site-packages
